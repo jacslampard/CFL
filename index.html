@@ -4,7 +4,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial;}
-
+.container {
+  max-width: 1200px;
+  max-height: 1200px;
+  padding: 0 20px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.table-container {
+    display: flex;
+    justify-content: space-between; /* Distribute tables evenly */
+    margin-bottom: 20px; /* Add some space between tables */
+  }
 /* Style the tab */
 .tab {
   overflow: hidden;
@@ -71,6 +85,10 @@ img {
   .custom-tabl th, .custom-table td {
     padding: 8px;
     text-align: center;
+  }
+ @media screen and (max-width: 768px max-height: 768px) {
+  .container {
+    padding: 0 10px;
   }
 </style>
 </head>
@@ -219,7 +237,124 @@ img {
 </div>
 
 <div id="Kochi" class="tabcontent">
-  <iframe src="test.html" style="height:1000px;width:2000px" title="Iframe Example"></iframe>
+  <div class="container">
+<b>Next Player: --</b>
+</div>	
+<div class="container">
+<div class="table-container">
+	
+  <table class="custom-tabl">
+    <thead>
+      <tr>
+        <th>THEE WARRIORS FC </th>
+      </tr>
+    </thead>
+  </table>
+
+  <table class="custom-tabl">
+    <thead>
+      <tr>
+        <th>RDX Blasters FC</th>
+      </tr>
+    </thead>
+  </table>
+
+  <table class="custom-tabl">
+    <thead>
+      <tr>
+        <th>THUNDERHAWKS FC</th>
+      </tr>
+    </thead>
+    
+  </table>
+
+</div>
+<br/>
+	</div>
+	<div class="container">
+<div class="table-container">
+	
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Available Balance</th>
+		<th>100Cr</th>
+      </tr>
+    </thead>
+  </table>
+
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Available Balance</th>
+		<th>100Cr</th>
+      </tr>
+    </thead>
+  </table>
+
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Available Balance</th>
+		<th>100Cr</th>
+      </tr>
+    </thead>
+  </table>
+  </table>
+  </div>
+  </div>
+<div class="container">
+<div class="table-container">
+	
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Player</th>
+		<th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Sahad</td>
+		<td>10cr</td>
+      </tr>      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Player</th>
+		<th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> </td>
+		<td></td>
+      </tr>      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Player</th>
+		<th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> </td>
+		<td></td>
+      </tr>      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+
+</div>
+<br/>
+	</div>
+
 </div>
 <script>
 window.onload=function(){
