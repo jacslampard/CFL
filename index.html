@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  
+  border-top: none;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.custom-table {
+    width: calc(25% - 10px); /* Set width for each table */
+    border-collapse: collapse;
+  }
+
+  .custom-table th, .custom-table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .custom-table th {
+    background-color: #f2f2f2;
+  }
+  .custom-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .custom-tabl {
+    width: calc(25% - 10px); /* Set width for each table style="background-image: url('bg.jpg');background-size: 2000px 1200px;background-repeat: no-repeat;">*/
+    border-collapse: collapse;
+  }
+
+  .custom-tabl th, .custom-table td {
+    padding: 8px;
+    text-align: center;
+  }
+</style>
+</head>
+<body style="background-color:#93DCFD;">
+
+<img src="CFL.jpg" alt="Trulli" width="400px" height="300px">
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">Player List</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">General Rules</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Auction Rules</button>
+  <button class="tablinks" onclick="openCity(event, 'Kochi')">Team List</button>
+</div>
+
+<div id="London" class="tabcontent">
+<h2> Player Details</h2>
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Player</th>
+		<th>Position</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Sahad</td>
+		<td>Defender</td>
+    </tr> 
+	<tr>
+        <td>Prasanth</td>
+		<td>Midfielder</td>
+    </tr> 
+   	<tr>
+        <td>Anandhu</td>
+		<td>GK</td>
+    </tr> 
+	<tr>
+        <td>Aswin</td>
+		<td>Midfielder</td>
+    </tr> 
+	<tr>
+        <td>Visakh</td>
+		<td>Defender</td>
+    </tr> 
+	<tr>
+        <td>Wysh</td>
+		<td>Striker</td>
+    </tr> 
+	<tr>
+        <td>Sooraj</td>
+		<td>Defender</td>
+    </tr> 
+	<tr>
+        <td>Deepak</td>
+		<td>Midfielder</td>
+    </tr>
+	<tr>
+        <td>Alphi</td>
+		<td>Midfielder</td>
+    </tr>
+	<tr>
+        <td>Gilson</td>
+		<td>Defender</td>
+    </tr>
+	<tr>
+        <td>Kiran</td>
+		<td>Defender</td>
+    </tr>
+	<tr>
+        <td>Abhijith</td>
+		<td>Midfielder</td>
+    </tr>
+	<tr>
+        <td>Fayaz</td>
+		<td>Midfielder</td>
+    </tr>
+	<tr>
+        <td>Ashiq</td>
+		<td>Striker</td>
+    </tr>
+	<tr>
+        <td>Arason</td>
+		<td>Defender</td>
+    </tr>
+	<tr>
+        <td>Vishnu</td>
+		<td>-</td>
+    </tr>
+	<tr>
+        <td>Fasil</td>
+		<td>Midfielder</td>
+    </tr>
+	  <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+</div>
+
+<div id="Paris" class="tabcontent">
+ <h2>General Rules: </h2>
+<p>
+&#x2022; It will be 5s tournament. <br/>
+
+&#x2022; The tournament will be conducted on league basis + final match. <br/>
+
+&#x2022; Disputes will be settled by the organizers in consultation with the referees. <br/>
+
+&#x2022; There can be a maximum of 5 players in the field at a time (4 + 1 GK). <br/>
+
+&#x2022; Substitutions are unlimited during the game (rolling substitution). <br/>
+
+&#x2022; A match consists of two halves, each half will be 7 minutes and halftime break will be 2 minutes. <br/>
+
+&#x2022; There will be no off-side rule. <br/>
+
+&#x2022; All restarts after the goals are from the middle of the field. <br/>
+
+&#x2022; Ball cannot be thrown beyond the half line by goalkeeper. <br/>
+
+&#x2022; All subs must be recognized by the referee but no stoppage time for them will be allowed. <br/>
+
+&#x2022; Foul and hand ball rules will be followed just as in standard football. <br/>
+
+&#x2022; In league round, winner will get 3 points. In case of draw, each team will get 1 point each. <br/>
+
+&#x2022; Yellow and red cards will be given for fouls and infringement of rules as in regular football games. Normal Red card and yellow card rules will be used. <br/>
+
+&#x2022; 2 yellow cards in consecutive matches lead to a 1 match suspension so as a direct red card. <br/>
+
+&#x2022; A separate penalty shootout matches will be organised between matches to provide rest for teams playing consecutive matches (general rules will be shared later). <br/>
+
+&#x2022; All players should wear boots or shoes while playing. <br/>
+
+&#x2022; Winner of the tournament will be decided on a final match where two top teams will compete. If points are equal goal difference will be considered to determine the top two teams for the final.<br/> 
+</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h2>General Rules: </h2>
+  <p>&#x2022; Every owner will be allocated with a budeget of <br/>
+&#x2022; Base price of each player is 1cr <br/>
+&#x2022; Minimum increment is 1cr upto 25cr after which increment of call will be 5cr<br/>
+&#x2022; When a team reaches a count of minimum 5 players(including Owners)the Onwer cannot make any more participation in the auction<br/>
+&#x2022; When two teams reach the minimum count third team will have the option for free pick for base price.<br/>
+&#x2022; Once all team reaches quota of 5 players all owners can participate in auction<br/>
+&#x2022; Player list for auction will be random.<br/>
+&#x2022; If a player is unsold during the auction, player auction will be conducted after auction for all players is completed</p>
+</div>
+
+<div id="Kochi" class="tabcontent">
+  <iframe src="test.html" style="height:1000px;width:2000px" title="Iframe Example"></iframe>
+</div>
+<script>
+window.onload=function(){
+  document.getElementById("London").click();
+};
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+</body>
+</html>
+
