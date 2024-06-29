@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  max-width: 1200px;
+  max-height: 1200px;
+  padding: 0 20px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.table-container {
+    display: flex;
+    justify-content: space-between; /* Distribute tables evenly */
+    margin-bottom: 20px; /* Add some space between tables */
+  }
+
+  .custom-table {
+    width: calc(25% - 10px); /* Set width for each table */
+    border-collapse: collapse;
+  }
+
+  .custom-table th, .custom-table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .custom-table th {
+    background-color: #f2f2f2;
+  }
+
+  /* CSS for table hover effect */
+  .custom-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .custom-tabl {
+    width: calc(25% - 50px); /* Set width for each table style="background-image: url('bg.jpg');background-size: 2000px 1200px;background-repeat: no-repeat;">*/
+    border-collapse: collapse;
+  }
+
+  .custom-tabl th, .custom-tabl td {
+    padding: 8px;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px max-height: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+</style>
+<script>
+</script>
+</head>
+<body >
+<div class="container">
+<div class="table-container">
+	
+  <table class="custom-tabl">
+    <thead>
+      <tr>
+        <th>Match Day 1 July 4</th>
+      </tr>
+    </thead>
+  </table>
+</div>
+<br/>
+	</div>
+
+<div class="container">
+<div class="table-container">
+  <table class="custom-table">
+    <thead>
+      <tr>
+        <th>Match</th>
+		<th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>THEE WARRIORS FC  vs RDX Blasters FC</td>
+		<td>7:30 pm</td>
+      </tr>  
+	<tr>
+        <td>RDX Blasters FC  vs THUNDERHAWKS FC</td>
+		<td>8:00 pm</td>
+      </tr> 
+	<tr>
+        <td>THUNDERHAWKS FC vs THEE WARRIORS FC </td>
+		<td>8:30 pm</td>
+      </tr> 	  <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+</div>
+<br/>
+	</div>
+</body>
+</html>
+
