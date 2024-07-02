@@ -1,0 +1,46 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+.banner-section{
+    background-color: #001c36;
+    color: #fff;
+}
+.banner-content{
+    margin: 25px 15px;
+    display: grid;
+}
+
+.banner-content h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+.banner-content h2{
+    font-size: 20px;
+}
+.banner-content p{
+    font-size: 18px;
+}
+.cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.nav,.tab-content{
+    font-family: sans-serif;
+    margin: 0px 10px;
+}
+
+.table{
+    margin-top: 20px;
+    width: 600px;
+}
+
+footer{
+    font-size: 15px;
+    color: #fff;
+    padding: 10px;
+    background-color: #000;
+}
