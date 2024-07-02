@@ -32,6 +32,9 @@ body {
     font-family: sans-serif;
     margin: 0px 10px;
 }
+.tab-content{
+    min-height: 700px;
+}
 
 .table{
     margin-top: 20px;
@@ -43,4 +46,10 @@ footer{
     color: #fff;
     padding: 10px;
     background-color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+    .tab-content{
+        min-height: 82px;
+    }
 }
